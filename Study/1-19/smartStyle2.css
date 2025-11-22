@@ -1,0 +1,55 @@
+@media screen and (max-width:479px) {
+    .wrapper{
+        width: 200px;
+        height: 600px;
+    }
+    .header{
+        width: 200px;
+        height: 200px;
+    }
+    .header-innerbox{
+        width: 60px;
+        height: 160px;
+        margin-top: 20px;
+        margin-right: 70px;
+    }
+    .box1{
+        float: none;
+        margin: 10px auto;
+    }
+    .box2{
+        float: none;
+        margin: 10px auto;
+    }
+    .box3{
+        float: none;
+        margin: 10px auto;
+    }
+    .right{
+        width: 200px;
+        height: 200px;    
+    }
+    .box4{
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+}
+    .box5{
+        margin-right: 20px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+}
+    .box6{
+        margin-right: 20px;
+        margin-left: 30px;
+}
+    .left{
+        width: 200px;
+        height: 100px;
+    }
+    .footer{
+        width: 200px;
+        height: 100px;   
+    }
+}
