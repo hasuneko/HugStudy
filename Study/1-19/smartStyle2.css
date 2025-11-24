@@ -4,46 +4,34 @@
         height: 600px;
     }
     .header{
+        display: flex;
         width: 200px;
         height: 200px;
+        align-items: center;
+        justify-content:space-around;
     }
-    .header-innerbox{
+    .header-container{
+        flex-flow: column;
         width: 60px;
         height: 160px;
-        margin-top: 20px;
-        margin-right: 70px;
+        margin: auto;
     }
-    .box1{
+    .boxa{
         float: none;
-        margin: 10px auto;
-    }
-    .box2{
-        float: none;
-        margin: 10px auto;
-    }
-    .box3{
-        float: none;
-        margin: 10px auto;
+        margin: auto;
     }
     .right{
+        float: left;
+        display: flex;
         width: 200px;
-        height: 200px;    
+        height: 200px;
+        flex-flow: column;
+        align-items: center;
+        justify-content:space-evenly;    
     }
-    .box4{
-        margin-top: 20px;
-        margin-right: 20px;
-        margin-bottom: 10px;
-        margin-left: 30px;
-}
-    .box5{
-        margin-right: 20px;
-        margin-bottom: 10px;
-        margin-left: 30px;
-}
-    .box6{
-        margin-right: 20px;
-        margin-left: 30px;
-}
+    .boxb{
+        margin-right: 0;
+    }
     .left{
         width: 200px;
         height: 100px;
