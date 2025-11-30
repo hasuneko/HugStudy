@@ -13,25 +13,21 @@ body {
     margin: 0 auto;
 }
 .header{
-    width: 400px;
-    height: 100px;
     background-color: #ffce7a;
+    padding:20px 20px 20px;
 }
 .header-container{
-    display:flex;
-    justify-content:space-evenly;
     float: right;
-    width: 160px;
-    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 160px;  
     background-color: white;
-    margin-top: 20px;
-    margin-right: 20px;
 }
 .boxa{
     width: 40px;
     height: 40px;
     background-color: #c2ffc8;
-    margin-top: 10px;
+    margin: 10px 0 10px 0;
 }
 .left{
     float: left;
@@ -40,21 +36,22 @@ body {
     background-color: #9dddf4;
 }
 .right{
-    float: left;
-    display: flex;
-    width: 250px;
+    float: right;
     height: 250px;
     background-color: #c2ffc8;
-    flex-flow: column;
-    align-items: center;
-    justify-content:space-evenly;
+}
+.right-container{
+    display: flex;
+    flex-flow: column; 
+    justify-content: space-between;    
+    height: 170px;   
+    margin: 40px 60px 40px 40px;
 }
 .boxb{
     width: 140px;
-    height: 40px;
+    height: 40px;   
     background-color: #ffc2c5;
     border: 5px solid white;
-    margin-right: 20px;
 }
 .footer{
     width: 400px;

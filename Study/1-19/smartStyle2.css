@@ -4,42 +4,28 @@
         height: 600px;
     }
     .header{
-        display: flex;
-        width: 200px;
-        height: 200px;
-        align-items: center;
-        justify-content:space-around;
+        padding-right:70px;
     }
     .header-container{
         flex-flow: column;
         width: 60px;
         height: 160px;
-        margin: auto;
     }
     .boxa{
-        float: none;
         margin: auto;
     }
     .right{
-        float: left;
-        display: flex;
         width: 200px;
-        height: 200px;
-        flex-flow: column;
-        align-items: center;
-        justify-content:space-evenly;    
+        height: 200px;   
     }
-    .boxb{
-        margin-top: -5px;
-        margin-right: 0;
-        margin-left:  5px;
+    .right-container{ 
+        margin: 20px 0 0 30px;
     }
     .left{
         width: 200px;
         height: 100px;
     }
     .footer{
-        width: 200px;
-        height: 100px;   
+        width: 200px; 
     }
 }
