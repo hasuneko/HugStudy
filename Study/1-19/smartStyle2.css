@@ -8,11 +8,12 @@
     }
     .header-container{
         flex-flow: column;
+	align-items: center;
         width: 60px;
         height: 160px;
     }
     .boxa{
-        margin: auto;
+        margin: 0 0;
     }
     .right{
         width: 200px;
