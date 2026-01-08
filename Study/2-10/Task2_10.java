@@ -43,12 +43,8 @@ public class Task2_10 {
 
         //各段の計算結果(１から９までを掛ける)ループ
        for(int kakeru = 1;kakeru<=9;kakeru++){
-        //計算結果と区切りを表示
-        System.out.print(dan*kakeru);
-        //最後の要素以外は"|"を表示
-       if(kakeru<=9){
-        System.out.print("|");
-         }   
+        // 修正  計算結果と区切り "|"をつなげて一度に表示
+        System.out.print((dan*kakeru) + "|"); 
         }
         //一つの段が終わったら改行
        System.out.println();
