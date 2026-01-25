@@ -42,7 +42,8 @@ public class Task2_21 {
 
 
         // ③ オレンジの値段を200円に上書きしてください。
-         fruitsHashMap.put(orange, 200);
+        // fruitsArrayListの0番目（オレンジ）を指定して、値を200に上書きします。 
+         fruitsHashMap.put(fruitsArrayList.get(0), 200);
 
 
         
