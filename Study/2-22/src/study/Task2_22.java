@@ -28,7 +28,8 @@ public class Task2_22 {
 
         // 問② 「(Calendar.MONTH) + 数値」の処理は、想定していない値となる可能性があります。
         // その理由をコメントへ記述して下さい。
-        // [Calendar.MONTHは１月を「0」として数えるため、ただ単に数値を足しても実際の月より一か月ズレて表示されます。
+        // [Calendar.MONTHは0から11で管理されているため、数値加算を行うと実際の月とズレが生じるだけでなく、
+        // 12を超えた際に「１３月」や「１４月」といった存在しない月が表示されるリスクがある。       
         System.out.println(calendar.get(Calendar.YEAR));
         System.out.println(calendar.get(Calendar.MONTH) + 1);
         System.out.println(calendar.get(Calendar.DATE));
